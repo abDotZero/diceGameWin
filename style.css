@@ -1,0 +1,44 @@
+/* Import font family  */
+/* for h1 */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* for player */
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+/* font-family: 'Bruno Ace SC', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fcc8d1;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 95px;
+  font-family: "Ubuntu", sans-serif;
+  color: blueviolet;
+  letter-spacing: 1px;
+  margin-bottom: 70px;
+}
+
+.player {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+}
+
+h3 {
+  font-family: "Bruno Ace SC", cursive;
+  color: tomato;
+  margin-left: 60px;
+}
+
+h4 {
+  text-align: center;
+  color: gray;
+}
+
+img {
+  width: 250px;
+  padding: 50px;
+}
